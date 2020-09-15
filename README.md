@@ -24,7 +24,7 @@ resource "local_file" "foo" {
 
 
 module "datadog" {
-  source = "git@github:affoliveira/tf-dd-event-module.git?ref=v0.5"
+  source = "git@github:affoliveira/tf-dd-event-module.git?ref=v0.6"
   depends_on 		= [local_file.foo]
   datadog_api_key 	= var.datadog_api_key
   datadog_tags 		= var.datadog_tags
@@ -70,7 +70,7 @@ module "datadog" {
   datadog_api_key 	= var.datadog_api_key
   datadog_tags 		= var.datadog_tags
   datadog_title   	= var.datadog_title
-  #datadog_text    	= join(" " , [var.datadog_text, kubernetes_pod.nginx.name])
+  datadog_text    	= join(" " , [var.datadog_text, kubernetes_pod.nginx.metadata[0].self_link])
 }
 ```
 
