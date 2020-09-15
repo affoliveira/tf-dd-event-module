@@ -24,7 +24,7 @@ resource "local_file" "foo" {
 
 
 module "datadog" {
-  source = "./tf-dd-event-module"
+  source = "git@github:affoliveira/tf-dd-event-module.git?ref=v0.4"
   depends_on 		= [local_file.foo]
   datadog_api_key 	= var.datadog_api_key
   datadog_tags 		= var.datadog_tags
