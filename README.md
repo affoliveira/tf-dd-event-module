@@ -1,8 +1,5 @@
 # tf-dd-event-module
 
-[![Lint Status](https://github.com/affoliveira/tf-dd-event-module/Lint/badge.svg)](https://github.com/affoliveira/tf-dd-event-module/actions)
-[![LICENSE](https://img.shields.io/github/license/tf-dd-event-module)](https://github.com/affoliveira/tf-dd-event-module/blob/master/LICENSE)
-
 A terraform module to create events in Datadog
 
 ## Usage example
