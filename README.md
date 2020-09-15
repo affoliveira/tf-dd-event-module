@@ -1,13 +1,13 @@
 # tf-dd-event-module
 
-[![Lint Status](https://github.com/terraform-aws-modules/terraform-aws-eks/workflows/Lint/badge.svg)](https://github.com/terraform-aws-modules/terraform-aws-eks/actions)
+[![Lint Status](https://github.com/affoliveira/tf-dd-event-module/Lint/badge.svg)](https://github.com/affoliveira/tf-dd-event-module/actions)
 [![LICENSE](https://img.shields.io/github/license/tf-dd-event-module)](https://github.com/affoliveira/tf-dd-event-module/blob/master/LICENSE)
 
 A terraform module to create events in Datadog
 
 ## Usage example
 
-A basic example using the local_file resource [examples/basic_file](https://github.com/affoliveira/tf-dd-event-module/tree/master/examples/basic).
+A basic example using the local_file resource [examples/basic](https://github.com/affoliveira/tf-dd-event-module/tree/master/examples/basic).
 
 ```hcl
 terraform {
@@ -59,7 +59,7 @@ MIT Licensed. See [LICENSE](https://github.com/affoliveira/tf-dd-event-module/tr
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12.9, != 0.13.0 |
+| terraform | >= 0.13.0 |
 | local | >= 1.4 |
 | null | >= 2.1 |
 
