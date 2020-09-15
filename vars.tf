@@ -19,8 +19,10 @@ variable "datadog_alert_type" {
 
 variable "datadog_text" {
   type = string
+  default = "Terraform job completed"
 }
 
 variable "datadog_title" {
   type = string
+  default = "Terraform execution
 }
