@@ -72,11 +72,11 @@ MIT Licensed. See [LICENSE](https://github.com/affoliveira/tf-dd-event-module/tr
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| datadog_api_key | API key used to submit the events to Datadog. | `string` | `` | yes |
-| datadog_alert_type | Alert type for the submited event. | `string` | `info` | no |
-| datadog_priority | Priority of the event submited . | `string` | `normal` | no |
-| datadog_text | Text message of the event submited . | `string` | `Terraform job completed` | no |
-| datadog_title | Title of the event submited . | `string` | `Terraform execution` | no |
+| datadog\_api\_key | API key used to submit the events to Datadog. | `string` |  | yes |
+| datadog\_alert\_type | Alert type for the submited event. | `string` | `info` | no |
+| datadog\_priority | Priority of the event submited . | `string` | `normal` | no |
+| datadog\_text | Text message of the event submited . | `string` | `Terraform job completed` | no |
+| datadog\_title | Title of the event submited . | `string` | `Terraform execution` | no |
 
 ## Outputs
 
