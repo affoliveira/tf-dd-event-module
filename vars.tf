@@ -24,5 +24,5 @@ variable "datadog_text" {
 
 variable "datadog_title" {
   type = string
-  default = "Terraform execution
+  default = "Terraform execution"
 }
