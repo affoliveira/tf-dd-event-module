@@ -1,13 +1,13 @@
 # tf-dd-event-module
 
 [![Lint Status](https://github.com/terraform-aws-modules/terraform-aws-eks/workflows/Lint/badge.svg)](https://github.com/terraform-aws-modules/terraform-aws-eks/actions)
-[![LICENSE](https://img.shields.io/github/license/terraform-aws-modules/terraform-aws-eks)](https://github.com/tf-dd-event-module/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/tf-dd-event-module)](https://github.com/affoliveira/tf-dd-event-module/blob/master/LICENSE)
 
 A terraform module to create events in Datadog
 
 ## Usage example
 
-A basic example using the local_file resource [examples/basic_file](https://github.com/tf-dd-event-module/tree/master/examples/basic).
+A basic example using the local_file resource [examples/basic_file](https://github.com/affoliveira/tf-dd-event-module/tree/master/examples/basic).
 
 ```hcl
 terraform {
@@ -44,7 +44,7 @@ module "datadog" {
 
 ## Contributing
 
-Report issues/questions/feature requests on in the [issues](https://github.com/tf-dd-event-module/issues/new) section.
+Report issues/questions/feature requests on in the [issues](https://github.com/affoliveira/tf-dd-event-module/issues/new) section.
 
 
 ## Authors
@@ -53,7 +53,7 @@ Created and Maintained by [Andre Oliveira](https://github.com/affoliveira).
 
 ## License
 
-MIT Licensed. See [LICENSE](https://github.com/tf-dd-event-module/tree/master/LICENSE) for full details.
+MIT Licensed. See [LICENSE](https://github.com/affoliveira/tf-dd-event-module/tree/master/LICENSE) for full details.
 
 ## Requirements
 
