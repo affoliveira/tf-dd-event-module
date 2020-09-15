@@ -33,5 +33,5 @@ module "datadog" {
   datadog_api_key 	= var.datadog_api_key
   datadog_tags 		= var.datadog_tags
   datadog_title   	= var.datadog_title
-  #datadog_text    	= join(" " , [var.datadog_text, kubernetes_pod.nginx.name])
+  #datadog_text    	= join(" " , [var.datadog_text, kubernetes_pod.nginx.metadata[0].self_link])
 }
